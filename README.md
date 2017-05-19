@@ -23,7 +23,7 @@ TNKImagePickerController *picker = [[TNKImagePickerController alloc] init];
 picker.delegate = self;
 
 UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:picker];
-// while this is not stricktly necessary, not including this line will disable taking photos with the camera, pasting images, and selecting all assts in a collection
+// while this is not strictly necessary, not including this line will disable taking photos with the camera, pasting images, and selecting all assts in a collection
 navigationController.toolbarHidden = NO;
 
 // present the picker as a popover on iPad and landscape iPhone 6+ and a modal sheet on iPhone
